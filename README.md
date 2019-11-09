@@ -1,5 +1,5 @@
 # hlextend_fix_msgforge
-Fixes the msg string from the hlextend modul in python
+Fixes the msg string from the hlextend modul in python (https://github.com/stephenbradshaw/hlextend)
 
 **Installing:**
 
