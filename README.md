@@ -25,7 +25,7 @@ string_from_end -> string
 
 **Example:**
 ```python
-forged_msg_from_hlextend_example = "hello&test\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\0cthisistheend"
+forged_msg_from_hlextend_example = "hello&test\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0cthisistheend"
 
 mesg = fix.convert_hashforge(forged_msg_from_hlextend_example, "hello&test", "thisistheend")
 
